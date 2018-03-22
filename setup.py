@@ -79,7 +79,7 @@ setup(
     package_data=get_package_data('rest_framework_oauth'),
     cmdclass={'test': PyTest},
     install_requires=[
-        'django-oauth-plus==2.2.4',
+        'django-oauth-plus==2.2.7',
         'oauth2==1.5.211',
         'django-oauth2-provider'
         ],
